@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pydantic
+youtube-transcript-api
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+sentence-transformers
+faiss-cpu
+transformers
+torch
+numpy
+tqdm
+huggingface-hub
+requests

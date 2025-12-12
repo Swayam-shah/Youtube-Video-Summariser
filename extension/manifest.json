@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Chat with LLM",
+  "version": "1.0",
+  "description": "Ask questions about YouTube videos using LLM backend",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": [
+    "http://127.0.0.1:8000/*",
+    "http://localhost:8000/*"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}

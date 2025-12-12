@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VidQuery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-left">
+      <h2>VidQuery</h2>
+      <span id="statusText" class="status">Connecting...</span>
+    </div>
+    <button id="popOutBtn" title="Open in new window">◳</button>
+  </header>
+
+  <div id="chatContainer" class="chat-container">
+    <div class="message bot-message">
+      Hello! I'm VidQuery. Ask me anything about this video.
+    </div>
+  </div>
+
+  <div class="input-area">
+    <input id="question" type="text" placeholder="Type your question here..." autocomplete="off">
+    <button id="askBtn">➤</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
